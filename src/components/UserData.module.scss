@@ -1,0 +1,29 @@
+.userdata {
+  background-color: #f1efef;
+  width: 100%;
+  margin-top: 3rem;
+  height: 100vh;
+
+  .userdata_table {
+      align-items: center;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  td,
+  th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+  }
+}
