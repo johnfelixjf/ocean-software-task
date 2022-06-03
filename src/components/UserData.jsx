@@ -10,6 +10,7 @@ const UserData = (props) => {
   return (
     <div className={classes.userdata}>
       <h1>User Datas</h1>
+      <div className={classes.table_container}>
       <table className={classes.userdata_table}>
         <thead>
           <tr>
@@ -44,6 +45,7 @@ const UserData = (props) => {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   );
 };

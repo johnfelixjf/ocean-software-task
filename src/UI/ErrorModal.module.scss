@@ -32,9 +32,9 @@
   .modal_message {
     padding: 1rem;
 
-    p{
-        font-size: 1.1rem;
-        color: red;
+    p {
+      font-size: 1.1rem;
+      color: red;
     }
 
     .modal_button {
@@ -42,5 +42,12 @@
       display: flex;
       justify-content: flex-end;
     }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .error_modal {
+    width: 80%;
+    left: 9%;
   }
 }

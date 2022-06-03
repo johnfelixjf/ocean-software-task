@@ -4,6 +4,10 @@
   margin-top: 3rem;
   height: 100vh;
 
+  .table_container{
+    overflow-x:auto;
+  }
+
   .userdata_table {
       align-items: center;
   }
@@ -25,5 +29,21 @@
     border: 1px solid #999;
     padding: 0.5rem;
     text-align: left;
+  }
+}
+
+/* ======================== Media Query (Tablet) =======================*/
+
+@media screen and (max-width: 806px) {
+  table {
+    width: 38rem !important;
+  }
+}
+/* ======================== Media Query (Small Devices) =======================*/
+
+@media screen and (max-width: 600px) {
+  table {
+    width: 25rem !important;
+    // overflow-x:scroll
   }
 }

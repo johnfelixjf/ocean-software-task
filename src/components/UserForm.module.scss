@@ -1,21 +1,33 @@
-.user_form{
-    margin-top: 3rem;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50%;
-    width: 60%;
-    align-items: center;
-    border: solid 2px black;
+.user_form {
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 60%;
+  align-items: center;
+  border: solid 2px black;
 
-    .form{
-        padding: 2rem;
-        display: grid;
-        grid-gap: 1rem;
+  .form {
+    padding: 2rem;
+    display: grid;
+    grid-gap: 1rem;
 
-        .form_place{
-            display: grid;
-            grid-auto-flow: column;
-            grid-gap: 0.5rem;
-        }
+    .form_place {
+      display: grid;
+      grid-auto-flow: column;
+      grid-gap: 0.5rem;
     }
+  }
+}
+
+/* ======================== Media Query (Small Devices) =======================*/
+
+@media screen and (max-width: 600px) {
+  .user_form {
+    width: 80%;
+    
+    .form_place {
+      grid-auto-flow: row !important;
+    }
+  }
 }
